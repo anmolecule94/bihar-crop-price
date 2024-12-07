@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commodity Price Prediction</title>
+</head>
+<body>
+    <h1>Predict Commodity Prices</h1>
+    <form action="/predict" method="post">
+        <label for="State">State:</label>
+        <input type="text" id="State" name="State" required><br><br>
+
+        <label for="District">District:</label>
+        <input type="text" id="District" name="District" required><br><br>
+
+        <label for="Commodity">Commodity:</label>
+        <input type="text" id="Commodity" name="Commodity" required><br><br>
+
+        <label for="Arrival_Date">Arrival Date (YYYY-MM-DD):</label>
+        <input type="date" id="Arrival_Date" name="Arrival_Date" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
